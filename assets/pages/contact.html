@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Comigo</title>
+
+    <link rel="stylesheet" href="/projeto_portfolioParaDesigner/assets/css/global.css">
+    <link rel="stylesheet" href="/projeto_portfolioParaDesigner/assets/css/header.css">
+    <link rel="stylesheet" href="/projeto_portfolioParaDesigner/assets/css/main.css">
+    <link rel="stylesheet" href="/projeto_portfolioParaDesigner/assets/css/contact.css">
+    <link rel="stylesheet" href="/projeto_portfolioParaDesigner/assets/css/footer.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <section class="text-left">
+                <a href="/projeto_portfolioParaDesigner/index.html">Portfolio</a>
+                <a href="/projeto_portfolioParaDesigner/assets/pages/contact.html">Contato</a>
+            </section>
+
+            <h2 class="logo-text">Glebson <br> Morales</h2>
+
+            <section class="redes">
+                <a href="https://www.instagram.com/gmoralez.art/" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/instagram.png" alt="instagram"></a>
+                <a href="https://www.behance.net/glebsonsilva?tracking_source=search_users|glebson" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/icons/behance.png" alt="behance"></a>
+                <a href="" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/icons/whatsapp.png" alt="whatsapp"></a>
+            </section>
+        </nav>
+    </header>
+
+    <!--
+      glebson.ilustrador@gmail.com.br
+    <main>
+        <section class="contact-container">
+            <h2>Fale Comigo</h2>
+            <div class="formu">
+                form
+            </div>
+        </section>
+    </main> -->
+
+    <div class="contact">
+        <div id="container">
+          <h2>contact</h2>
+          <form action="https://formsubmit.co/glebson.ilustrador@gmail.com" method="POST" id="contact_form">
+            <div class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="name" name="name" id="name_input" required>
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+            </div>
+            <div class="subject">
+              <label for="subject"></label>
+              <select placeholder="subject line" name="subject" id="subject_input" required>
+                <option disabled hidden selected>subject</option>
+                <option>Just sayin' "hi"!</option>
+                <option>Quick question.</option>
+                <option>How about a commission?</option>
+              </select>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="submit" id="form_button"/>
+            </div>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://formsubmit.co/thanks.html">
+          </form>
+        </div>
+    </div>
+
+    <footer class="footer contato">
+        <section class="redes footer">
+            <a href="https://www.instagram.com/gmoralez.art/" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/instagram.png" alt="instagram"></a>
+            <a href="https://www.behance.net/glebsonsilva?tracking_source=search_users|glebson" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/behance.png" alt="behance"></a>
+            <a href="" target="_blank"><img src="/projeto_portfolioParaDesigner/assets/icons/whatsapp.png" alt="whatsapp"></a>
+        </section>
+    </footer>
+</body>
+</html>

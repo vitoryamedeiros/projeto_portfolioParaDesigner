@@ -1,0 +1,57 @@
+
+body,
+.navbar,
+.footer{
+    background-color: #0256D4;
+    background-color: #000;
+}
+.container-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container-project img{
+    width: 1500px;
+    height: 1000px;
+}
+
+.container-project .img-maior{
+    height: 2000px;
+}
+
+.container-project .img-maior-2{
+    height: 1500px;
+}
+
+.container-project .img-menor{
+    height: 700px;
+}
+
+.iframe-shark{
+    width: 1100px;
+    height: 2000px;
+}
+
+.veja-mais .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.veja-mais h2{
+    margin: 50px;
+}
+
+.sugestao{
+    width: 700px;
+    height: 450px;
+    margin: 1px;
+}
+
+.sugestao img{
+    width: 100%;
+}
