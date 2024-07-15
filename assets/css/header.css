@@ -20,11 +20,8 @@
     transition-duration: .6s;
 }
 
-.logo-text{
-    color: white;
-    font-size: 2rem;
-    position: relative;
-    left: -32px;
+.logo-header{
+    width: 300px;
 }
 
 .redes img{

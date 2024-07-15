@@ -15,10 +15,9 @@
 }
 
 .projetos img{
-    width: 850px;
-    height: 500px;
     position: relative;
-    /* width: 750px; */
+    width: 100%;
+    height: 50%;
 }
 
 .content{

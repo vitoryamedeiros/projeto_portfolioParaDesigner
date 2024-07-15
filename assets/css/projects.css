@@ -11,23 +11,13 @@ body,
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin: 0px 50px;
 }
 
 .container-project img{
-    width: 1450px;
-    height: 1000px;
-}
-
-.container-project .img-maior{
-    height: 2000px;
-}
-
-.container-project .img-maior-2{
-    height: 1500px;
-}
-
-.container-project .img-menor{
-    height: 630px;
+    /*width: 1450px;
+    height: 1000px;*/
+    width: 100%;
 }
 
 .iframe-shark{
